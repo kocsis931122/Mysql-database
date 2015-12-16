@@ -31,7 +31,7 @@ ENGINE = InnoDB;
 -- Table `meetupDB`.`Statuses`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `meetupDB`.`Statuses` (
-  `Id` INT NOT NULL,
+  `Id` INT NOT NULL AUTO_INCREMENT,
   `Value` VARCHAR(50) NOT NULL,
   PRIMARY KEY (`Id`))
 ENGINE = InnoDB;
